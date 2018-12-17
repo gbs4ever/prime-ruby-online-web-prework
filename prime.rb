@@ -2,8 +2,7 @@ def prime?(num)
 
     if num <=1
         return false
-
-   elsif num ==2 || num ==3
+ elsif num ==2 || num ==3
      return true
     end
 n=2
@@ -14,9 +13,7 @@ n=2
 
  else
    return true
-
 end
   n=n+1
   end
 end
-
